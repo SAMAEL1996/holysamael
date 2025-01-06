@@ -17,8 +17,8 @@ use Illuminate\Support\Facades\Crypt;
 */
 
 Route::get('/', function () {
-    // return view('frontend.dashboard.index');
-    return redirect()->to(Filament::getUrl());
+    return view('frontend.dashboard.index');
+    // return redirect()->to(Filament::getUrl());
 });
 
 Route::get('/flexi', function() {
