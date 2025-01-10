@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Crypt;
 */
 
 Route::get('/', function () {
-    return view('frontend.dashboard.index');
+    return view('portfolio.raf');
     // return redirect()->to(Filament::getUrl());
 });
 

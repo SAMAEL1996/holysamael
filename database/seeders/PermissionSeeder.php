@@ -64,7 +64,12 @@ class PermissionSeeder extends Seeder
             'create profiles',
             'edit profiles',
             'delete profiles',
-            'view staff-profile'
+            'view staff-profile',
+            'edit conferences',
+            'add conference-guests',
+            'approve conferences',
+            'create conferences',
+            'view conferences'
         ];
 
         foreach($permissionName as $name) {
