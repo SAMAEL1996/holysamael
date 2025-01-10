@@ -3,20 +3,46 @@
 @section('title', 'Contact')
 
 @section('content')
-    <section class="wrapper image-wrapper bg-image bg-overlay text-white" data-image-src="https://ik.imagekit.io/wow2navhj/HolySamael/blue-bg.jpg?updatedAt=1736479743369">
-        <div class="container py-14 py-md-17 text-center">
-            <div class="row">
-                <div class="col-xl-10 col-xxl-8 mx-auto text-center">
-                    <h1 class="display-1 text-white mt-2 mb-7">Rafaelito Ortilano</h1>
-                    <p class="lead fs-24 px-md-10 px-lg-0 mx-lg-n10 mx-xl-0 mb-8 text-uppercase text-white">Web
-                        Developer</p>
+<section class="wrapper bg-dark">
+    <div class="swiper-thumbs-container image-wrapper swiper-fullscreen bg-image bg-overlay" data-margin="0"
+        data-image-src="{{ asset('img/portfolio/blue-bg.jpg') }}">
+            <div class="h-100 d-flex align-items-center justify-content-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto mt-n10 text-center">
+                        <h1 class="fs-19 text-uppercase ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s">
+                            Rafaelito Ortilano
+                        </h1>
+                        <h2 class="display-1 fs-60 text-white mb-0 animate__animated animate__zoomIn animate__delay-2s w-100">
+                            Web Developer
+                        </h2>
+                    </div>
+                    <!-- /column -->
                 </div>
-                <!--/column -->
+                <!-- /.row -->
             </div>
-            <!--/.row -->
+            <!-- /.container -->
+        <!-- /.swiper-static -->
+    </div>
+    <!-- /.swiper-container -->
+</section>
+
+
+
+<section class="wrapper image-wrapper bg-image bg-overlay text-white d-none"
+    data-image-src="{{ asset('img/portfolio/blue-bg.jpg') }}">
+    <div class="container py-14 py-md-17 text-center">
+        <div class="row">
+            <div class="col-xl-10 col-xxl-8 mx-auto text-center">
+                <h1 class="display-1 text-white mt-2 mb-7">Rafaelito Ortilano</h1>
+                <p class="lead fs-24 px-md-10 px-lg-0 mx-lg-n10 mx-xl-0 mb-8 text-uppercase text-white">Web
+                    Developer</p>
+            </div>
+            <!--/column -->
         </div>
-        <!-- /.container -->
-    </section>
+        <!--/.row -->
+    </div>
+    <!-- /.container -->
+</section>
 <section class="section-frame mx-xxl-11 overflow-hidden mt-5">
     <div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-500 d-none"
         data-image-src="https://ik.imagekit.io/wow2navhj/HolySamael/blue-bg.jpg?updatedAt=1736479743369">
