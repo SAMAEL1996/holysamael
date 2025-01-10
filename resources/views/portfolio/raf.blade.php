@@ -3,8 +3,22 @@
 @section('title', 'Contact')
 
 @section('content')
+    <section class="wrapper image-wrapper bg-image bg-overlay text-white" data-image-src="https://ik.imagekit.io/wow2navhj/HolySamael/blue-bg.jpg?updatedAt=1736479743369">
+        <div class="container py-14 py-md-17 text-center">
+            <div class="row">
+                <div class="col-xl-10 col-xxl-8 mx-auto text-center">
+                    <h1 class="display-1 text-white mt-2 mb-7">Rafaelito Ortilano</h1>
+                    <p class="lead fs-24 px-md-10 px-lg-0 mx-lg-n10 mx-xl-0 mb-8 text-uppercase text-white">Web
+                        Developer</p>
+                </div>
+                <!--/column -->
+            </div>
+            <!--/.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 <section class="section-frame mx-xxl-11 overflow-hidden mt-5">
-    <div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-500"
+    <div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-500 d-none"
         data-image-src="https://ik.imagekit.io/wow2navhj/HolySamael/blue-bg.jpg?updatedAt=1736479743369">
         <div class="container py-16 py-md-18 text-center position-relative">
             <div class="row">
@@ -27,13 +41,14 @@
         <div class="row d-flex align-items-start gy-10 mb-18 mb-md-20">
             <div class="col-lg-5 position-lg-sticky" style="top: 8rem;">
                 <h3 class="display-2 mb-5">The service I offer is specifically designed to meet your needs.</h3>
-                <p class="mb-7">My service is carefully designed to cater to your unique requirements and ensure your satisfaction.</p>
+                <p class="mb-7">My service is carefully designed to cater to your unique requirements and ensure your
+                    satisfaction.</p>
                 <a href="#" class="btn btn-lg btn-primary btn-icon btn-icon-end d-none">More Details <i
                         class="uil uil-arrow-up-right"></i></a>
             </div>
             <!-- /column -->
             <div class="col-lg-6 ms-auto">
-            <div class="card bg-soft-fuchsia mb-6">
+                <div class="card bg-soft-fuchsia mb-6">
                     <div class="card-body d-flex flex-row">
                         <div>
                             <img src="./assets/img/icons/lineal/search-2.svg"
@@ -145,7 +160,8 @@
                     <div class="col-lg-4 order-lg-2 offset-lg-1">
                         <div class="post-category fs-15 mb-3 text-blue">Web Design</div>
                         <h3 class="h1 post-title mb-3">Front-End Template</h3>
-                        <p>A template available for creating a website, which simplifies the design and development process.</p>
+                        <p>A template available for creating a website, which simplifies the design and development
+                            process.</p>
                         <a href="#" class="btn btn-sm btn-blue btn-icon btn-icon-end mb-0 d-none">See Project <i
                                 class="uil uil-arrow-up-right"></i></a>
                     </div>
