@@ -9,7 +9,8 @@
         <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="row">
                 <div class="col-lg-8 mx-auto mt-n10 text-center">
-                    <div class="img-mask"><img src="{{ asset('img/portfolio/logo/logo-circle-white.png') }}" srcset="{{ asset('img/portfolio/logo/logo-circle-white.png') }} 2x" alt="" /></div>
+                    <div class="img-mask"><img src="{{ asset('img/portfolio/logo/logo-circle-white.png') }}"
+                            srcset="{{ asset('img/portfolio/logo/logo-circle-white.png') }} 2x" alt="" /></div>
                     <h1
                         class="fs-19 text-uppercase ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s">
                         Rafaelito Ortilano
@@ -173,8 +174,10 @@
                     </div>
                     <!-- /column -->
                     <div class="col-lg-7 offset-lg-1 align-self-end">
-                        <figure><img class="img-fluid" src="https://ik.imagekit.io/wow2navhj/HolySamael/mindspace-display.png?updatedAt=1736589002258"
-                                srcset="https://ik.imagekit.io/wow2navhj/HolySamael/mindspace-display.png?updatedAt=1736589002258 2x" alt="" /></figure>
+                        <figure><img class="img-fluid"
+                                src="https://ik.imagekit.io/wow2navhj/HolySamael/mindspace-display.png?updatedAt=1736589002258"
+                                srcset="https://ik.imagekit.io/wow2navhj/HolySamael/mindspace-display.png?updatedAt=1736589002258 2x"
+                                alt="" /></figure>
                     </div>
                     <!-- /column -->
                 </div>
@@ -281,7 +284,9 @@
         <div class="row gx-md-8 gx-xl-12 gy-10">
             <div class="col-lg-5 mx-auto">
                 <h2 class="display-2 mb-3">My experiences</h2>
-                <p class="lead fs-24 pe-xxl-8"></p>
+                <p class="lead fs-24 pe-xxl-8">As a Web Developer, I have designed and implemented robust, scalable web
+                    applications using Laravel, Filament, Livewire, Bootstrap, and JavaScript, while integrating advanced features
+                    such as custom widgets, data tables, and third-party APIs.</p>
             </div>
             <!--/column -->
             <div class="col-lg-7">
