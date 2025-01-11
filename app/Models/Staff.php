@@ -47,7 +47,7 @@ class Staff extends Model
 
     public function saleReports()
     {
-        return $this->hasMany(\App\Models\SalesReport::class);
+        return $this->hasMany(\App\Models\SaleReport::class);
     }
 
     public function attendances()
@@ -99,7 +99,7 @@ class Staff extends Model
                 'Staff Card ID' => $this->card_id . ' - ' . $this->card->code,
                 'Date' => \Carbon\Carbon::parse($item->date)->format(config('app.date_format')),
                 'Card ID' => $item->card_id,
-                'Card ID' => $item->name,
+                'Card Name' => $item->name,
                 'Time In' => \Carbon\Carbon::parse($item->date . ' ' . $item->time_in)->format(config('app.time_format')),
                 'Time Out' => \Carbon\Carbon::parse($item->date . ' ' . $item->time_in)->format(config('app.time_format')),
                 'Total Time' => $item->total_time,
@@ -120,7 +120,7 @@ class Staff extends Model
             'Staff Card ID' => '',
             'Date' => '',
             'Card ID' => '',
-            'Card ID' => '',
+            'Card Name' => '',
             'Time In' => '',
             'Time Out' => '',
             'Total Time' => '',
@@ -134,7 +134,7 @@ class Staff extends Model
             'Staff Card ID' => '',
             'Date' => '',
             'Card ID' => '',
-            'Card ID' => '',
+            'Card Name' => '',
             'Time In' => '',
             'Time Out' => '',
             'Total Time' => '',
