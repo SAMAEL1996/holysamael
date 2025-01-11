@@ -317,7 +317,7 @@
                         <div class="timeline-info meta fs-14">December 2022</div>
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3 class="timeline-title">Junior Web Developer at The Great Discovery</h3>
+                            <h3 class="timeline-title">Junior Full-Stack Developer at The Great Discovery</h3>
                             <p>Collaborated with senior developers to troubleshoot issues, implement new features, and
                                 optimize website performance.</p>
                         </div>
