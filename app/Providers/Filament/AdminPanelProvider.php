@@ -71,6 +71,7 @@ class AdminPanelProvider extends PanelProvider
                 'logout' => MenuItem::make()->label('Log out'),
                 // ...
             ])
+            ->login(\App\Filament\Pages\Auth\Login::class)
             ->favicon('https://ik.imagekit.io/wow2navhj/Mindspace/mindspace_logo_circle.png?updatedAt=1716357911454');
     }
 }

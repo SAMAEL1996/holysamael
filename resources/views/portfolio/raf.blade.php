@@ -9,6 +9,7 @@
         <div class="h-100 d-flex align-items-center justify-content-center">
             <div class="row">
                 <div class="col-lg-8 mx-auto mt-n10 text-center">
+                    <div class="img-mask"><img src="{{ asset('img/portfolio/logo/logo-circle-white.png') }}" srcset="{{ asset('img/portfolio/logo/logo-circle-white.png') }} 2x" alt="" /></div>
                     <h1
                         class="fs-19 text-uppercase ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s">
                         Rafaelito Ortilano
@@ -166,14 +167,14 @@
                         <p>The admin panel enables staffs to monitor and manage the check-in and check-out times of
                             guests and members, while also tracking the cost associated with the time spent within the
                             facility.</p>
-                        <a href="{{ Filament\Facades\Filament::getUrl() }}"
+                        <a href="{{ Filament\Facades\Filament::getUrl() }}" target="_blank"
                             class="btn btn-sm btn-violet btn-icon btn-icon-end mb-0">Try Demo <i
                                 class="uil uil-arrow-up-right"></i></a>
                     </div>
                     <!-- /column -->
                     <div class="col-lg-7 offset-lg-1 align-self-end">
-                        <figure><img class="img-fluid" src="./assets/img/photos/f1.png"
-                                srcset="./assets/img/photos/f1@2x.png 2x" alt="" /></figure>
+                        <figure><img class="img-fluid" src="https://ik.imagekit.io/wow2navhj/HolySamael/mindspace-display.png?updatedAt=1736589002258"
+                                srcset="https://ik.imagekit.io/wow2navhj/HolySamael/mindspace-display.png?updatedAt=1736589002258 2x" alt="" /></figure>
                     </div>
                     <!-- /column -->
                 </div>
