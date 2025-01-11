@@ -6,21 +6,23 @@
 <section class="wrapper bg-dark">
     <div class="swiper-thumbs-container image-wrapper swiper-fullscreen bg-image bg-overlay" data-margin="0"
         data-image-src="{{ asset('img/portfolio/blue-bg.jpg') }}">
-            <div class="h-100 d-flex align-items-center justify-content-center">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto mt-n10 text-center">
-                        <h1 class="fs-19 text-uppercase ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s">
-                            Rafaelito Ortilano
-                        </h1>
-                        <h2 class="display-1 fs-60 text-white mb-0 animate__animated animate__zoomIn animate__delay-2s w-100">
-                            Web Developer
-                        </h2>
-                    </div>
-                    <!-- /column -->
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col-lg-8 mx-auto mt-n10 text-center">
+                    <h1
+                        class="fs-19 text-uppercase ls-xl text-white mb-3 animate__animated animate__zoomIn animate__delay-1s">
+                        Rafaelito Ortilano
+                    </h1>
+                    <h2
+                        class="display-1 fs-60 text-white mb-0 animate__animated animate__zoomIn animate__delay-2s w-100">
+                        Web Developer
+                    </h2>
                 </div>
-                <!-- /.row -->
+                <!-- /column -->
             </div>
-            <!-- /.container -->
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
         <!-- /.swiper-static -->
     </div>
     <!-- /.swiper-container -->
@@ -77,7 +79,7 @@
                 <div class="card bg-soft-fuchsia mb-6">
                     <div class="card-body d-flex flex-row">
                         <div>
-                            <img src="./assets/img/icons/lineal/search-2.svg"
+                            <img src="./assets/img/icons/lineal/search.svg"
                                 class="svg-inject icon-svg icon-svg-md text-fuchsia me-5" alt="" />
                         </div>
                         <div class="d-flex align-items-center">
@@ -90,7 +92,7 @@
                 <div class="card bg-soft-aqua mb-6">
                     <div class="card-body d-flex flex-row">
                         <div>
-                            <img src="./assets/img/icons/lineal/puzzle-2.svg"
+                            <img src="./assets/img/icons/lineal/web.svg"
                                 class="svg-inject icon-svg icon-svg-md text-aqua me-5" alt="" />
                         </div>
                         <div class="d-flex align-items-center">
@@ -103,7 +105,7 @@
                 <div class="card bg-soft-yellow mb-6">
                     <div class="card-body d-flex flex-row">
                         <div>
-                            <img src="./assets/img/icons/lineal/smartphone.svg"
+                            <img src="./assets/img/icons/lineal/workflow.svg"
                                 class="svg-inject icon-svg icon-svg-md text-yellow me-5" alt="" />
                         </div>
                         <div class="d-flex align-items-center">
@@ -116,7 +118,7 @@
                 <div class="card bg-soft-leaf mb-6">
                     <div class="card-body d-flex flex-row">
                         <div>
-                            <img src="./assets/img/icons/lineal/design.svg"
+                            <img src="./assets/img/icons/lineal/tools.svg"
                                 class="svg-inject icon-svg icon-svg-md text-leaf me-5" alt="" />
                         </div>
                         <div class="d-flex align-items-center">
@@ -129,7 +131,7 @@
                 <div class="card bg-soft-orange mb-6">
                     <div class="card-body d-flex flex-row">
                         <div>
-                            <img src="./assets/img/icons/lineal/video-editing.svg"
+                            <img src="./assets/img/icons/lineal/team.svg"
                                 class="svg-inject icon-svg icon-svg-md text-orange me-5" alt="" />
                         </div>
                         <div class="d-flex align-items-center">
@@ -283,6 +285,17 @@
             <!--/column -->
             <div class="col-lg-7">
                 <ul class="timeline">
+                    <li class="timeline-item">
+                        <div class="timeline-info meta fs-14">August 2024</div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">IT Head at Mindspace Coworking Hub</h3>
+                            <p>The website is designed to efficiently manage guest and member check-ins and check-outs,
+                                with automatic cost calculation based on the time spent, ensuring a smooth operation. It
+                                also tracks staff attendance and monitors their sales performance, providing valuable
+                                insights to enhance operational efficiency and productivity.</p>
+                        </div>
+                    </li>
                     <li class="timeline-item">
                         <div class="timeline-info meta fs-14">September 2023</div>
                         <div class="timeline-marker"></div>

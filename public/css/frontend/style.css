@@ -38401,7 +38401,7 @@ video.player {
   bottom: 0;
   left: 0;
   width: 0.6rem;
-  color: var(--bs-primary);
+  color: var(--bs-gray-600);
 }
 .timeline .timeline-item .timeline-marker:before,
 .timeline .timeline-item .timeline-marker:after {
