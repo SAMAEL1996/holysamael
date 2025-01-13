@@ -251,8 +251,121 @@
 </section>
 <!-- /section -->
 
+<section class="wrapper bg-gradient-reverse-primary">
+    <div class="container pb-10 pb-md-13">
+        <div class="row mb-8 text-center">
+            <div class="col-lg-8 col-xl-7 mx-auto">
+                <h2 class="fs-15 ls-xl text-uppercase text-muted d-none">Inner Pages</h2>
+                <h2 class="display-3 mt-3 mb-3 mb-0">Skills.</h2>
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="grid grid-view projects-masonry">
+            <div class="isotope-filter filter mb-10 text-start text-md-center">
+                <ul>
+                    <li><a class="filter-item active" data-filter="*">All</a></li>
+                    <li><a class="filter-item" data-filter=".frontend">Frontend</a></li>
+                    <li><a class="filter-item" data-filter=".backend">Backend</a></li>
+                    <li><a class="filter-item" data-filter=".tools">Tools</a></li>
+                </ul>
+            </div>
+            <div data-cue="fadeIn" data-group="features-3">
+                <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 gx-md-8 gy-10 isotope text-center justify-content-center">
+                    <div class="project item col backend">
+                        <img class="mb-4" src="{{ asset('icons/backend/filament.png') }}" srcset="{{ asset('icons/backend/filament.png') }} 2x" width="60"/>
+                        <h4>Filament</h4>
+                    </div>
+                    <div class="project item col frontend">
+                        <img class="mb-4" src="{{ asset('icons/frontend/bootstrap.png') }}" srcset="{{ asset('icons/frontend/bootstrap.png') }} 2x" width="60"/>
+                        <h4>Bootstrap</h4>
+                    </div>
+                    <div class="project item col backend">
+                        <img class="mb-4" src="{{ asset('icons/backend/laravel.png') }}" srcset="{{ asset('icons/backend/laravel.png') }} 2x" width="60"/>
+                        <h4>Laravel</h4>
+                    </div>
+                    <div class="project item col tools">
+                        <img class="mb-4" src="{{ asset('icons/tools/sourcetree.png') }}" srcset="{{ asset('icons/tools/sourcetree.png') }} 2x" width="60"/>
+                        <h4>Sourcetree</h4>
+                    </div>
+                    <div class="project item col tools">
+                        <img class="mb-4" src="{{ asset('icons/tools/github.png') }}" srcset="{{ asset('icons/tools/github.png') }} 2x" width="60"/>
+                        <h4>GitHub</h4>
+                    </div>
+                    <div class="project item col frontend">
+                        <img class="mb-4" src="{{ asset('icons/frontend/js.png') }}" srcset="{{ asset('icons/frontend/js.png') }} 2x" width="60"/>
+                        <h4>JS</h4>
+                    </div>
+                    <div class="project item col backend">
+                        <img class="mb-4" src="{{ asset('icons/backend/mysql.png') }}" srcset="{{ asset('icons/backend/mysql.png') }} 2x" width="60"/>
+                        <h4>MySQL</h4>
+                    </div>
+                    <div class="project item col tools">
+                        <img class="mb-4" src="{{ asset('icons/tools/git.png') }}" srcset="{{ asset('icons/tools/git.png') }} 2x" width="60"/>
+                        <h4>Git</h4>
+                    </div>
+                    <div class="project item col frontend">
+                        <img class="mb-4" src="{{ asset('icons/frontend/jQuery.png') }}" srcset="{{ asset('icons/frontend/jQuery.png') }} 2x" width="60"/>
+                        <h4>jQuery</h4>
+                    </div>
+                    <div class="project item col frontend">
+                        <img class="mb-4" src="{{ asset('icons/frontend/html.png') }}" srcset="{{ asset('icons/frontend/html.png') }} 2x" width="60"/>
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="project item col backend">
+                        <img class="mb-4" src="{{ asset('icons/backend/nodejs.png') }}" srcset="{{ asset('icons/backend/nodejs.png') }} 2x" width="60"/>
+                        <h4>Node.js</h4>
+                    </div>
+                    <div class="project item col frontend">
+                        <img class="mb-4" src="{{ asset('icons/frontend/css.png') }}" srcset="{{ asset('icons/frontend/css.png') }} 2x" width="60"/>
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="project item col tools">
+                        <img class="mb-4" src="{{ asset('icons/tools/vs-code.png') }}" srcset="{{ asset('icons/tools/vs-code.png') }} 2x" width="60"/>
+                        <h4>VS Code</h4>
+                    </div>
+                    <div class="project item col tools">
+                        <img class="mb-4" src="{{ asset('icons/tools/phpstorm.png') }}" srcset="{{ asset('icons/tools/phpstorm.png') }} 2x" width="60"/>
+                        <h4>PhpStorm</h4>
+                    </div>
+                    <div class="project item col backend">
+                        <img class="mb-4" src="{{ asset('icons/backend/php.png') }}" srcset="{{ asset('icons/backend/php.png') }} 2x" width="60"/>
+                        <h4>PHP</h4>
+                    </div>
+                    <div class="project item col frontend">
+                        <img class="mb-4" src="{{ asset('icons/frontend/tailwind-css.png') }}" srcset="{{ asset('icons/frontend/tailwind-css.png') }} 2x" width="60"/>
+                        <h4>Tailwind <br>CSS</h4>
+                    </div>
+                    <div class="project item col backend">
+                        <img class="mb-4" src="{{ asset('icons/backend/livewire.png') }}" srcset="{{ asset('icons/backend/livewire.png') }} 2x" width="60"/>
+                        <h4>Livewire</h4>
+                    </div>
+                    <div class="project item col tools">
+                        <img class="mb-4" src="{{ asset('icons/tools/postman.png') }}" srcset="{{ asset('icons/tools/postman.png') }} 2x" width="60"/>
+                        <h4>Postman</h4>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /div -->
+        </div>
+        <!-- /.grid -->
+        <div class="mb-15"></div>
+    </div>
+    <!-- /.container -->
+    <div class="overflow-hidden">
+        <div class="divider text-light mx-n2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+                <path fill="currentColor"
+                    d="M1260,1.65c-60-5.07-119.82,2.47-179.83,10.13s-120,11.48-180,9.57-120-7.66-180-6.42c-60,1.63-120,11.21-180,16a1129.52,1129.52,0,0,1-180,0c-60-4.78-120-14.36-180-19.14S60,7,30,7H0v93H1440V30.89C1380.07,23.2,1319.93,6.15,1260,1.65Z" />
+            </svg>
+        </div>
+    </div>
+    <!-- /.overflow-hidden -->
+</section>
+
 <section class="wrapper bg-light">
-    <div class="container pb-16 pb-md-18">
+    <div class="container pb-10 pb-md-12">
         <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center mb-16 mb-md-18">
             <div class="col-md-8 col-lg-6 mx-auto">
                 <div class="img-mask mask-2 px-xxl-5">
@@ -285,7 +398,8 @@
             <div class="col-lg-5 mx-auto">
                 <h2 class="display-2 mb-3">My experiences</h2>
                 <p class="lead fs-24 pe-xxl-8">As a Web Developer, I have designed and implemented robust, scalable web
-                    applications using Laravel, Filament, Livewire, Bootstrap, and JavaScript, while integrating advanced features
+                    applications using Laravel, Filament, Livewire, Bootstrap, and JavaScript, while integrating
+                    advanced features
                     such as custom widgets, data tables, and third-party APIs.</p>
             </div>
             <!--/column -->
