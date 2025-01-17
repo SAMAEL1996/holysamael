@@ -407,8 +407,11 @@
                     a balance between functionality and simplicity. By focusing on clarity and efficiency, I aim to
                     deliver applications that are both user-friendly and developer-friendly, providing a solid
                     foundation for future growth and adaptability.</p>
-                <a href="{{ route('portfolio.raf.download-cv') }}" class="btn btn-primary btn-icon btn-icon-end mt-2">Download Resume <i
-                        class="uil uil-arrow-up-right"></i></a>
+                <a href="https://drive.google.com/file/d/1d_06KGvi0YfKTzV1uozbVyky-uNxYSBf/view?usp=sharing"
+                    target="_blank" class="btn btn-primary btn-icon btn-icon-end mt-2">
+                    Download Resume
+                    <i class="uil uil-cloud-download"></i>
+                </a>
             </div>
             <!--/column -->
         </div>
