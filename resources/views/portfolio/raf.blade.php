@@ -271,77 +271,96 @@
                 </ul>
             </div>
             <div data-cue="fadeIn" data-group="features-3">
-                <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 gx-md-8 gy-10 isotope text-center justify-content-center">
+                <div
+                    class="row row-cols-2 row-cols-md-4 row-cols-lg-6 gx-md-8 gy-10 isotope text-center justify-content-center">
                     <div class="project item col backend">
-                        <img class="mb-4" src="{{ asset('icons/backend/filament.png') }}" srcset="{{ asset('icons/backend/filament.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/backend/filament.png') }}"
+                            srcset="{{ asset('icons/backend/filament.png') }} 2x" width="60" />
                         <h4>Filament</h4>
                     </div>
                     <div class="project item col frontend">
-                        <img class="mb-4" src="{{ asset('icons/frontend/bootstrap.png') }}" srcset="{{ asset('icons/frontend/bootstrap.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/frontend/bootstrap.png') }}"
+                            srcset="{{ asset('icons/frontend/bootstrap.png') }} 2x" width="60" />
                         <h4>Bootstrap</h4>
                     </div>
                     <div class="project item col backend">
-                        <img class="mb-4" src="{{ asset('icons/backend/laravel.png') }}" srcset="{{ asset('icons/backend/laravel.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/backend/laravel.png') }}"
+                            srcset="{{ asset('icons/backend/laravel.png') }} 2x" width="60" />
                         <h4>Laravel</h4>
                     </div>
                     <div class="project item col tools">
-                        <img class="mb-4" src="{{ asset('icons/tools/sourcetree.png') }}" srcset="{{ asset('icons/tools/sourcetree.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/tools/sourcetree.png') }}"
+                            srcset="{{ asset('icons/tools/sourcetree.png') }} 2x" width="60" />
                         <h4>Sourcetree</h4>
                     </div>
                     <div class="project item col tools">
-                        <img class="mb-4" src="{{ asset('icons/tools/github.png') }}" srcset="{{ asset('icons/tools/github.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/tools/github.png') }}"
+                            srcset="{{ asset('icons/tools/github.png') }} 2x" width="60" />
                         <h4>GitHub</h4>
                     </div>
                     <div class="project item col frontend">
-                        <img class="mb-4" src="{{ asset('icons/frontend/js.png') }}" srcset="{{ asset('icons/frontend/js.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/frontend/js.png') }}"
+                            srcset="{{ asset('icons/frontend/js.png') }} 2x" width="60" />
                         <h4>JS</h4>
                     </div>
                     <div class="project item col backend">
-                        <img class="mb-4" src="{{ asset('icons/backend/mysql.png') }}" srcset="{{ asset('icons/backend/mysql.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/backend/mysql.png') }}"
+                            srcset="{{ asset('icons/backend/mysql.png') }} 2x" width="60" />
                         <h4>MySQL</h4>
                     </div>
                     <div class="project item col tools">
-                        <img class="mb-4" src="{{ asset('icons/tools/git.png') }}" srcset="{{ asset('icons/tools/git.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/tools/git.png') }}"
+                            srcset="{{ asset('icons/tools/git.png') }} 2x" width="60" />
                         <h4>Git</h4>
                     </div>
                     <div class="project item col frontend">
-                        <img class="mb-4" src="{{ asset('icons/frontend/jQuery.png') }}" srcset="{{ asset('icons/frontend/jQuery.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/frontend/jQuery.png') }}"
+                            srcset="{{ asset('icons/frontend/jQuery.png') }} 2x" width="60" />
                         <h4>jQuery</h4>
                     </div>
                     <div class="project item col frontend">
-                        <img class="mb-4" src="{{ asset('icons/frontend/html.png') }}" srcset="{{ asset('icons/frontend/html.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/frontend/html.png') }}"
+                            srcset="{{ asset('icons/frontend/html.png') }} 2x" width="60" />
                         <h4>HTML</h4>
                     </div>
                     <div class="project item col backend">
-                        <img class="mb-4" src="{{ asset('icons/backend/nodejs.png') }}" srcset="{{ asset('icons/backend/nodejs.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/backend/nodejs.png') }}"
+                            srcset="{{ asset('icons/backend/nodejs.png') }} 2x" width="60" />
                         <h4>Node.js</h4>
                     </div>
                     <div class="project item col frontend">
-                        <img class="mb-4" src="{{ asset('icons/frontend/css.png') }}" srcset="{{ asset('icons/frontend/css.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/frontend/css.png') }}"
+                            srcset="{{ asset('icons/frontend/css.png') }} 2x" width="60" />
                         <h4>CSS</h4>
                     </div>
                     <div class="project item col tools">
-                        <img class="mb-4" src="{{ asset('icons/tools/vs-code.png') }}" srcset="{{ asset('icons/tools/vs-code.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/tools/vs-code.png') }}"
+                            srcset="{{ asset('icons/tools/vs-code.png') }} 2x" width="60" />
                         <h4>VS Code</h4>
                     </div>
                     <div class="project item col tools">
-                        <img class="mb-4" src="{{ asset('icons/tools/phpstorm.png') }}" srcset="{{ asset('icons/tools/phpstorm.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/tools/phpstorm.png') }}"
+                            srcset="{{ asset('icons/tools/phpstorm.png') }} 2x" width="60" />
                         <h4>PhpStorm</h4>
                     </div>
                     <div class="project item col backend">
-                        <img class="mb-4" src="{{ asset('icons/backend/php.png') }}" srcset="{{ asset('icons/backend/php.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/backend/php.png') }}"
+                            srcset="{{ asset('icons/backend/php.png') }} 2x" width="60" />
                         <h4>PHP</h4>
                     </div>
                     <div class="project item col frontend">
-                        <img class="mb-4" src="{{ asset('icons/frontend/tailwind-css.png') }}" srcset="{{ asset('icons/frontend/tailwind-css.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/frontend/tailwind-css.png') }}"
+                            srcset="{{ asset('icons/frontend/tailwind-css.png') }} 2x" width="60" />
                         <h4>Tailwind <br>CSS</h4>
                     </div>
                     <div class="project item col backend">
-                        <img class="mb-4" src="{{ asset('icons/backend/livewire.png') }}" srcset="{{ asset('icons/backend/livewire.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/backend/livewire.png') }}"
+                            srcset="{{ asset('icons/backend/livewire.png') }} 2x" width="60" />
                         <h4>Livewire</h4>
                     </div>
                     <div class="project item col tools">
-                        <img class="mb-4" src="{{ asset('icons/tools/postman.png') }}" srcset="{{ asset('icons/tools/postman.png') }} 2x" width="60"/>
+                        <img class="mb-4" src="{{ asset('icons/tools/postman.png') }}"
+                            srcset="{{ asset('icons/tools/postman.png') }} 2x" width="60" />
                         <h4>Postman</h4>
                     </div>
                 </div>
@@ -388,7 +407,7 @@
                     a balance between functionality and simplicity. By focusing on clarity and efficiency, I aim to
                     deliver applications that are both user-friendly and developer-friendly, providing a solid
                     foundation for future growth and adaptability.</p>
-                <a href="#" class="btn btn-primary btn-icon btn-icon-end mt-2 disabled">Download Resume <i
+                <a href="{{ route('portfolio.raf.download-cv') }}" class="btn btn-primary btn-icon btn-icon-end mt-2">Download Resume <i
                         class="uil uil-arrow-up-right"></i></a>
             </div>
             <!--/column -->
@@ -410,10 +429,13 @@
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <h3 class="timeline-title">IT Head at Mindspace Coworking Hub</h3>
-                            <p>The website is designed to efficiently manage guest and member check-ins and check-outs,
-                                with automatic cost calculation based on the time spent, ensuring a smooth operation. It
-                                also tracks staff attendance and monitors their sales performance, providing valuable
-                                insights to enhance operational efficiency and productivity.</p>
+                            <p>Designed and developed a website to streamline the entire process of managing guest and
+                                member check-ins and check-outs. With this system, I’ve ensured that calculating costs
+                                based on the time spent is automatic and seamless, making operations smoother for both
+                                the staff and the guests. Additionally, I incorporated features to track staff
+                                attendance and monitor their sales performance. These insights are invaluable for
+                                improving operational efficiency and boosting productivity, giving the management the
+                                tools they need to make informed decisions.</p>
                         </div>
                     </li>
                     <li class="timeline-item">

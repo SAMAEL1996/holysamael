@@ -48,3 +48,9 @@ Route::post('/flexi', function(Request $request) {
 
     return redirect()->route('flexi.remaining-time', ['user' => $flexi->uid]);
 })->name('flexi.remaining-time');
+
+Route::get('portfolio/raf/download-cv', function() {
+    $filePath = public_path('files/CV Full-Stack Developer - Rafaelito Ortilano.pdf');
+
+    return response()->download($filePath);
+})->name('portfolio.raf.download-cv');
