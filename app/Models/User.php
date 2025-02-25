@@ -51,9 +51,14 @@ class User extends Authenticatable
         ];
     }
 
-    public function staff()
+    public function guestsIn()
     {
-        return $this->hasOne(\App\Models\Staff::class);
+        return $this->hasMany(\App\Models\Guest::class, 'user_in', 'id');
+    }
+
+    public function guestsOut()
+    {
+        return $this->hasMany(\App\Models\Guest::class, 'user_out', 'id');
     }
 
     public function cashLogs()
